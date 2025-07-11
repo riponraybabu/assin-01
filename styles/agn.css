@@ -1,0 +1,161 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+font-weight: 900;
+font-size: 34px;
+
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFF;
+    padding: 12px 36px;
+    border-radius: 5px;
+}
+
+
+.mar{
+    margin: 0 10px 0 140px;
+}
+/* header  */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.tt{
+    margin: 0 150px 0 150px;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+nav ul li {
+    list-style: none;
+}
+.banner-conttent{
+    max-width: 500;
+text-align: center;
+    margin: 0 10px 0 10px;
+    padding: 68px 
+    68px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}.conttent{
+    width: 450px;
+    margin: 62px 0 62px 0;
+    
+}
+.about{
+    border-radius: 13px;
+    padding: 120px 15px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* secondary background */
+.s-bg{
+    background-color: #d0f1f5;
+}.item-name{
+    display: inline-block;
+}
+
+.profile{
+    width: 403px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.t{
+    text-align: center;
+}
+.skills{
+    border-radius: 7px;
+    padding: 120px 10px;
+}
+/* abc section */
+.o{
+    display: flex;
+
+}
+.img{
+    width: 40px;height: 40px;
+}
+.abc-container{
+    display: flex;
+    gap: 20px;
+}
+.abc{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #F2EDED;
+ }
+ /* footer */
+ .sec{
+    font-weight: bold;
+    font-size: 97px;
+ }
+ footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ footer input[type="text"],footer input[type="email"],footer textarea
+ {
+    height: 64px;
+    border-radius: 5px;
+    background-color: aliceblue;
+display: block;
+width: 100%;
+padding: 10px 20px;
+margin-bottom: 24px;
+border: none;
+ }
+.tr{
+    color: #4E47FF;
+}
+.rr{
+    font-size: 16px;
+    color: #8987A1;
+}
+.logo{
+    border-radius: 10px;
+    max-width: 1140px ;
+    margin: 0 auto;
+    padding: 6px 7px;
+    text-align: center;
+    margin-top: 2px;
+}.logo-items{
+    display: flex;
+    justify-content: space-around;
+}
